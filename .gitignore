@@ -1,0 +1,32 @@
+# Arquivos que nao devem ir para a entrega/publicacao
+README.md
+.agents/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saidas e arquivos gerados localmente
+outputs/
+data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Sistema/editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
